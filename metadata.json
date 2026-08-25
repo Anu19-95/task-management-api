@@ -1,7 +1,6 @@
 {
   "name": "Task Management API",
-  "description": "A REST API and interface for creating, managing, and tracking tasks.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "description": "TaskCore is a REST API and developer console for creating, managing, and tracking tasks.",
+  "requestFramePermissions": []
 }
 

@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# TaskCore API
 
-# Run and deploy your AI Studio app
+A focused task management REST API with a responsive developer console for creating, organizing, and tracking work.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/0b075b3c-5bf3-4941-aeff-4f55f23ec63a
+- Create, update, filter, sort, and delete tasks
+- Track status, priority, due dates, and tags
+- Inspect API requests and responses in the built-in console
+- Monitor health and task statistics
 
 ## Run Locally
 
 **Prerequisites:**  Node.js
 
-
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
+
+Open http://localhost:3000 in your browser.
